@@ -40,7 +40,7 @@ const RiskDonutChart = () => {
       : <DonutChart
         data={[
           {
-            label: "Select level of risk",
+            label: "Select risk level",
             value: 0
           }]}
           legend={false}
