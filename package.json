@@ -1,7 +1,12 @@
 {
-  "name": "front",
+  "name": "financialAdvisor",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name" : "Agustín",
+    "email": "agustin.j.nogueira@gmail.com",
+    "url": "https://www.linkedin.com/in/agustinjuarezn/"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -16,8 +21,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-toasts": "^3.0.6",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
