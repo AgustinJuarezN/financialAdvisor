@@ -1,0 +1,26 @@
+.donut {
+    width: 600px;
+    height: 800px;
+
+    @media (max-width: 415px) {
+        width: 300px;
+        height: 400px;
+    }
+
+    .donut-arcs {
+        transform: translate(0,-250px);
+    }
+
+    .donut-innertext {
+        transform: translate(0,-150px);
+
+        .donut-innertext-label {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .donut-innertext-value {
+            font-size: 20px;
+        }
+    }
+}

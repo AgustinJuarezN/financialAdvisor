@@ -1,0 +1,43 @@
+
+.select {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .next {
+        width: 100%;
+    }
+}
+
+.button-mode {
+    top: 200px;
+    right: 133px;
+    position: absolute;
+
+    @media (max-width: 1200px) {
+        top: 230px;
+        right: 50px;
+    }
+
+    @media (max-width: 415px) {
+        top: 240px;
+        right: 10px;
+    }
+
+    img {
+        height: 50px;
+        width: 55px;
+        border: 3px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.content-data {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}

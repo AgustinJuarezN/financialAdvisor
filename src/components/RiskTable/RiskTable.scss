@@ -1,0 +1,16 @@
+.risk-table {
+    width: 100%;
+
+    @media (max-width: 415px) {
+        font-size: 12px;
+        margin-top: 40px;
+
+        td, th {
+            padding: 0.15 !important;
+        }
+
+    }
+    .active-row {
+        background: rgb(230, 255, 63) !important;
+    }
+}

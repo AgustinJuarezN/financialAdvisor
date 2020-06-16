@@ -1,0 +1,17 @@
+.area {
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 370px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 14px;
+
+    ul {
+        padding: 0 20px;
+        margin: 0;
+        font-size: 12px;
+    }
+}

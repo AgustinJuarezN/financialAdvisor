@@ -1,0 +1,30 @@
+.risk-button {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 62px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 27px;
+    font-weight: 500;
+    cursor: pointer;
+
+    @media (max-width: 800px) {
+        height: 30px;
+        width: 30px;
+        font-size: 12px;
+    }
+
+    @media (max-width: 330px) {
+        height: 25px;
+        width: 24px;
+        font-size: 10px !important;
+    }
+}
+
+.active-button {
+    background: rgb(230, 255, 63);
+}
