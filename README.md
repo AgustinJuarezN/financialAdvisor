@@ -10,6 +10,11 @@ Home
 Verify
 ![](verify.gif)
 
+## Install
+In the project directory, you can run:
+
+### `yarn install`
+
 ## Available Scripts
 
 In the project directory, you can run:
